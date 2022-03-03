@@ -60,7 +60,7 @@ editionImages:
       repository: blockchaintp/sextant-api-enterprise
       tag: BTP2.1.0-2.2.5
     community:
-      registryUrl: dev.catenasys.com:8084
+      registry: dev.catenasys.com:8084
       repository: blockchaintp/sextant-api-community
       tag: BTP2.1.0-2.2.5
 
@@ -78,7 +78,7 @@ imagePullSecrets:
     ## @md | `imagePullSecrets.createSecret.enabled` | true to create a image pull secret | boolean | false |
     enabled: true
     ## @md | `imagePullSecrets.createSecret.registryUrl` | the registry url | string | nil |
-    registryUrl:
+    registryUrl: dev.catenasys.com:8084
     ## @md | `imagePullSecrets.createSecret.registryUser` | the username for the registry | string | nil |
     registryUser:
     ## @md | `imagePullSecrets.createSecret.registryPassword` | the password for the registry | string | nil |
