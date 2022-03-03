@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: 2.1.8
+annotations:
+  catalog.cattle.io/certified: partner # Enables the "partner" badge in the UI for easier identification
+  catalog.cattle.io/release-name: sextant # Your chart's name in kebab-case, this is used for deployment
+  catalog.cattle.io/display-name: Sextant # The chart's name you want displayed in the UI
+dependencies:
+- name: standard-defs
+  repository: file://./charts/standard-defs
+description: Sextant automates the deployment and management of enterprise blockchain
+  infrastructure.
+icon: https://sextant-resources.s3.amazonaws.com/icons/large-logo-blue.svg
+name: sextant
+type: application
+version: 2.2.13
