@@ -3035,6 +3035,26 @@ entries:
     urls:
     - assets/portworx/portworx-2.8.0.tgz
     version: 2.8.0
+  sextant:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Sextant
+      catalog.cattle.io/release-name: sextant
+    apiVersion: v2
+    appVersion: 2.1.8
+    created: "2022-03-03T14:04:20.25164Z"
+    dependencies:
+    - name: standard-defs
+      repository: file://./charts/standard-defs
+    description: Sextant automates the deployment and management of enterprise blockchain
+      infrastructure.
+    digest: 3aa321ab3b8a181f09572f78526406f404b2bba526baf9ecbd6dba4293202f6f
+    icon: https://sextant-resources.s3.amazonaws.com/icons/large-logo-blue.svg
+    name: sextant
+    type: application
+    urls:
+    - assets/sextant/sextant-2.2.1300.tgz
+    version: 2.2.1300
   shipa:
   - annotations:
       catalog.cattle.io/certified: partner
