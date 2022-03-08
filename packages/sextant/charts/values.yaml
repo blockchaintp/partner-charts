@@ -18,7 +18,7 @@
 # development
 # community
 
-edition: community
+edition: development
 
 editionImages:
   ui:
@@ -41,7 +41,7 @@ editionImages:
     community:
       registry: dev.catenasys.com:8084
       repository: blockchaintp/sextant-community
-      tag: BTP2.1.0-2.1.6
+      tag: BTP2.1.0
   api:
     awsStandard:
       registry: 709825985650.dkr.ecr.us-east-1.amazonaws.com
@@ -62,7 +62,7 @@ editionImages:
     community:
       registry: dev.catenasys.com:8084
       repository: blockchaintp/sextant-api-community
-      tag: BTP2.1.0-2.2.6
+      tag: BTP2.1.0
 
 deployment:
   name: sextant
@@ -76,9 +76,9 @@ imagePullSecrets:
 
   createSecret:
     ## @md | `imagePullSecrets.createSecret.enabled` | true to create a image pull secret | boolean | false |
-    enabled: true
+    enabled: false
     ## @md | `imagePullSecrets.createSecret.registryUrl` | the registry url | string | nil |
-    registryUrl: dev.catenasys.com:8084
+    registryUrl:
     ## @md | `imagePullSecrets.createSecret.registryUser` | the username for the registry | string | nil |
     registryUser:
     ## @md | `imagePullSecrets.createSecret.registryPassword` | the password for the registry | string | nil |
@@ -195,7 +195,7 @@ postgres:
     ## @md | `postgres.persistence.accessModes` | postgres PVC access modes | list | [ "ReadWriteOnce" ] |
     accessModes:
       - "ReadWriteOnce"
-    ## @md | `postgres.persistence.storageClass` | postgres PVC storageClass | string | "gp2" |
+    ## @md | `postgres.persistence.storageClass` | postgres PVC storageClass | string | nil |
     storageClass: ""
     ## @md | `postgres.persistence.size` | postgres PVC volume size | string | "40Gi" |
     size: "40Gi"

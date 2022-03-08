@@ -20,7 +20,7 @@ questions:
   required: true
   type: boolean
   label: Enable Sextant Ingress
-  description: Set true to enable an ingress for Sextant
+  description: Enable an ingress for Sextant
   group: "Ingress Settings"
   show_subquestion_if: true
   subquestions:
@@ -50,7 +50,7 @@ questions:
     required: false
     type: boolean
     label: Enable the acme certmanager for this ingress
-    description: Set true to enable the acme certmanager for this ingress
+    description: Enable the acme certmanager for this ingress
     group: "Ingress Settings"
   - variable: ingress.annotations
     default: ""
@@ -64,7 +64,7 @@ questions:
     required: false
     type: boolean
     label: Ingress TLS
-    description: Set true to enable tls on the ingress with a secrete at hostname-tls
+    description: Enable tls on the ingress with a secrete at hostname-tls
     group: "Ingress Settings"
 # Sextant database settings
 - variable: postgres.enabled
@@ -72,7 +72,7 @@ questions:
   required: true
   type: boolean
   label: Use internal postgres database
-  description: Create an internal postgres instance for Sextant, or if not supply details of an external postgres 
+  description: Create an internal postgres instance for Sextant, or if not supply details of an external postgres
   group: "Database settings"
   show_subquestion_if: false
   subquestions:

@@ -9,7 +9,12 @@ dependencies:
   repository: file://./charts/standard-defs
 description: Sextant automates the deployment and management of enterprise blockchain
   infrastructure.
+home: https://www.blockchaintp.com/sextant
 icon: https://sextant-resources.s3.amazonaws.com/icons/large-logo-blue.svg
+keywords:
+- blockchain
+- smart contracts
+kubeVersion: '>= 1.19'
 name: sextant
 type: application
-version: 2.2.13
+version: 2.2.15
