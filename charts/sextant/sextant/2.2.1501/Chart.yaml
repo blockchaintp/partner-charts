@@ -14,7 +14,7 @@ icon: https://sextant-resources.s3.amazonaws.com/icons/large-logo-blue.svg
 keywords:
 - blockchain
 - smart contracts
-kubeVersion: '>= 1.19'
+kubeVersion: '>= 1.19-0'
 name: sextant
 type: application
 version: 2.2.1501
