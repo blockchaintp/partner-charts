@@ -1,0 +1,13 @@
+--- charts-original/Chart.yaml
++++ charts/Chart.yaml
+@@ -7,6 +7,10 @@
+   infrastructure.
+ home: https://www.blockchaintp.com/sextant
+ icon: https://sextant-resources.s3.amazonaws.com/icons/large-logo-blue.svg
++annotations:
++  catalog.cattle.io/certified: partner # Enables the "partner" badge in the UI for easier identification
++  catalog.cattle.io/release-name: sextant # Your chart's name in kebab-case, this is used for deployment
++  catalog.cattle.io/display-name: Sextant # The chart's name you want displayed in the UI
+ keywords:
+ - blockchain
+ - smart contracts
