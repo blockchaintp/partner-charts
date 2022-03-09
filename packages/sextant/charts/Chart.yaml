@@ -14,7 +14,7 @@ annotations:
 keywords:
 - blockchain
 - smart contracts
-kubeVersion: '>= 1.19'
+kubeVersion: '>= 1.19-0'
 name: sextant
 type: application
 version: 2.2.15
