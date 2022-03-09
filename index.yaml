@@ -3171,6 +3171,30 @@ entries:
       catalog.cattle.io/release-name: sextant
     apiVersion: v2
     appVersion: 2.1.8
+    created: "2022-03-09T15:12:27.492095Z"
+    dependencies:
+    - name: standard-defs
+      repository: file://./charts/standard-defs
+    description: Sextant automates the deployment and management of enterprise blockchain
+      infrastructure.
+    digest: 41c37245ad04dcfa43892d2c3d80e394bda9e31c37340e0dfff150f268644ceb
+    home: https://www.blockchaintp.com/sextant
+    icon: https://sextant-resources.s3.amazonaws.com/icons/large-logo-blue.svg
+    keywords:
+    - blockchain
+    - smart contracts
+    kubeVersion: '>= 1.19-0'
+    name: sextant
+    type: application
+    urls:
+    - assets/sextant/sextant-2.2.1502.tgz
+    version: 2.2.1502
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Sextant
+      catalog.cattle.io/release-name: sextant
+    apiVersion: v2
+    appVersion: 2.1.8
     created: "2022-03-09T14:05:27.288861Z"
     dependencies:
     - name: standard-defs
