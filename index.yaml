@@ -4870,6 +4870,36 @@ entries:
     urls:
     - assets/codefresh/cf-runtime-0.1.401.tgz
     version: 0.1.401
+  chronicle:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Chronicle
+      catalog.cattle.io/release-name: chronicle
+    apiVersion: v2
+    appVersion: 0.2.1
+    created: "2023-03-07T09:58:32.307154Z"
+    dependencies:
+    - name: standard-defs
+      repository: file://./charts/standard-defs
+      version: ~0.1.0
+    - name: sawtooth
+      repository: file://./charts/sawtooth
+      version: ~0.2.0
+    description: 'Chronicle is an open-source, blockchain-backed, domain-agnostic
+      provenance product. Chronicle makes it easy for users to record and query immutable
+      provenance information on a distributed ledger - about any asset, in any domain,
+      and across multiple parties. '
+    digest: 4ca5247a2cffcd51b022ab9ae4c7f0514c8fd98cbf13d126afc338bcda0d6ab6
+    home: https://docs.btp.works/chronicle
+    icon: https://chronicle-resources.s3.amazonaws.com/icons/chronicle-transparent-bg-dark.png
+    keywords:
+    - provenance
+    - blockchain
+    name: chronicle
+    type: application
+    urls:
+    - assets/btp/chronicle-0.1.6.tgz
+    version: 0.1.6
   citrix-adc-istio-ingress-gateway:
   - annotations:
       catalog.cattle.io/certified: partner
