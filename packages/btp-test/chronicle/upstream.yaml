@@ -1,0 +1,6 @@
+GitRepo: https://github.com/btpworks/chronicle.git
+GitBranch: CHRON-279
+GitSubdirectory: charts/chronicle
+RemoteDependencies: true
+Vendor: Test BTP
+DisplayName: Test-Chronicle
