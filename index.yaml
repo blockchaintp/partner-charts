@@ -5808,23 +5808,23 @@ entries:
   chronicle:
   - annotations:
       catalog.cattle.io/certified: partner
-      catalog.cattle.io/display-name: Chronicle
+      catalog.cattle.io/display-name: Test-Chronicle
       catalog.cattle.io/release-name: chronicle
     apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-03-15T10:54:30.00582Z"
+    created: "2023-04-20T12:05:36.772286+01:00"
     dependencies:
     - name: standard-defs
-      repository: file://./charts/standard-defs
+      repository: https://btp-charts-stable.s3.amazonaws.com/charts/
       version: ~0.1.0
     - name: sawtooth
-      repository: file://./charts/sawtooth
+      repository: https://btp-charts-stable.s3.amazonaws.com/charts/
       version: ~0.2.0
     description: 'Chronicle is an open-source, blockchain-backed, domain-agnostic
       provenance product. Chronicle makes it easy for users to record and query immutable
       provenance information on a distributed ledger - about any asset, in any domain,
       and across multiple parties. '
-    digest: 0e796be511e7f9e21ba1b4a26fdaa56879331ee1b154c796c910aa6db0dc07c1
+    digest: 2546484cd0870d05c2a60049ef5d138151094737241514364c81cdbab3ec39b5
     home: https://docs.btp.works/chronicle
     icon: https://chronicle-resources.s3.amazonaws.com/icons/chronicle-transparent-bg-dark.png
     keywords:
@@ -5833,7 +5833,7 @@ entries:
     name: chronicle
     type: application
     urls:
-    - assets/btp/chronicle-0.1.6.tgz
+    - assets/test-btp/chronicle-0.1.6.tgz
     version: 0.1.6
   citrix-adc-istio-ingress-gateway:
   - annotations:
