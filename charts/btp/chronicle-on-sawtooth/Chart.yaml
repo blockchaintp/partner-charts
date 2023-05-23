@@ -1,0 +1,17 @@
+annotations:
+  catalog.cattle.io/certified: partner
+  catalog.cattle.io/display-name: Chronicle
+  catalog.cattle.io/release-name: chronicle-on-sawtooth
+apiVersion: v2
+appVersion: 0.6.2
+dependencies:
+- name: standard-defs
+  repository: file://./charts/standard-defs
+  version: ~0.1.0
+- name: sawtooth
+  repository: file://./charts/sawtooth
+  version: ~0.2.0
+description: 'Your chronicle domains running on a Hyperledger Sawtooth backend '
+name: chronicle-on-sawtooth
+type: application
+version: 0.1.14
