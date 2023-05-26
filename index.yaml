@@ -7353,6 +7353,57 @@ entries:
     urls:
     - assets/btp/chronicle-0.1.6.tgz
     version: 0.1.6
+  chronicle-on-sawtooth:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Chronicle
+      catalog.cattle.io/release-name: chronicle-on-sawtooth
+    apiVersion: v2
+    appVersion: 0.6.2
+    created: "2023-05-26T14:44:34.69796+01:00"
+    dependencies:
+    - name: standard-defs
+      repository: file://./charts/standard-defs
+      version: ~0.1.0
+    - name: sawtooth
+      repository: file://./charts/sawtooth
+      version: ~0.2.0
+    description: 'Chronicle is an open-source, blockchain-backed, domain-agnostic
+      provenance product. Chronicle makes it easy for users to record and query immutable
+      provenance information on a distributed ledger - about any asset, in any domain,
+      and across multiple parties. '
+    digest: 208fc8783199c1ce439e0fa68053269b14b5c6baf11319600d350d62ac5fec0d
+    home: https://docs.btp.works/chronicle
+    icon: https://chronicle-resources.s3.amazonaws.com/icons/chronicle-transparent-bg-dark.png
+    keywords:
+    - provenance
+    - blockchain
+    name: chronicle-on-sawtooth
+    type: application
+    urls:
+    - assets/btp/chronicle-on-sawtooth-0.1.15.tgz
+    version: 0.1.15
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: Chronicle
+      catalog.cattle.io/release-name: chronicle-on-sawtooth
+    apiVersion: v2
+    appVersion: 0.6.2
+    created: "2023-05-26T14:42:59.675391+01:00"
+    dependencies:
+    - name: standard-defs
+      repository: file://./charts/standard-defs
+      version: ~0.1.0
+    - name: sawtooth
+      repository: file://./charts/sawtooth
+      version: ~0.2.0
+    description: 'Your chronicle domains running on a Hyperledger Sawtooth backend '
+    digest: 0d780f266ce1c1a282df4ea33983a826025eafc193df15395a04187cffe9cfaa
+    name: chronicle-on-sawtooth
+    type: application
+    urls:
+    - assets/btp/chronicle-on-sawtooth-0.1.13.tgz
+    version: 0.1.13
   citrix-adc-istio-ingress-gateway:
   - annotations:
       catalog.cattle.io/certified: partner
